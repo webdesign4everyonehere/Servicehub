@@ -1,0 +1,39 @@
+/* JvaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+/*login style */
+.left-form{
+	-fx-background-color: linear-gradient(to bottom right,#aa6ad1,#69bde1);
+	-fx-border-color: #000;
+	-fx-border-width: .4px .0px .4px .4px;
+}
+
+.right-form{
+	-fx-background-color: #fff;
+	-fx-border-color: #000;
+	-fx-border-width: .4px .4px .4px .0px;
+}
+
+.close{
+	-fx-background-color: transparent;
+	-fx-cursor: hand;
+}
+
+.close:hover{
+	-fx-background-color: #fb3d63;
+}
+
+.textfeild:focused{
+	-fx-background-color: #fff;
+	-fx-border-color: linear-gradient(to bottom right,#aa6ad1,#69bde1);
+}
+
+.login-btn{
+    -fx-background-color:linear-gradient(to bottom, #2968a7, #14405d);
+    -fx-background-radius:4px;
+    -fx-cursor:hand;
+    -fx-text-fill:#fff;
+    -fx-font-size:14px;
+    -fx-font-family:"Arial";
+}
+.login-btn:hover{
+    -fx-background-color:linear-gradient(to bottom, #277bd0, #1b6fa4);
+}
